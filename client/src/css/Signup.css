@@ -1,0 +1,47 @@
+#Signup{
+    background-image: url("../assets/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    padding: 150px 0px 0px 450px;
+}
+
+#Signup form {
+    height: 400px;
+    width: 530px;
+    background-color: rgb(108, 40, 38, 0.5);
+    border: 1px solid black;
+    padding: 20px 0px 0px 100px;
+    color: white;
+}
+
+  
+  #Signup label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  #Signup input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #Signup button {
+    background-color: #386d7a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:20px 0px 0px 150px;
+  }
+  
+  #Signup button:hover {
+    background-color: rgb(56, 109, 122,0.6);
+  }

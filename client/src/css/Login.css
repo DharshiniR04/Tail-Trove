@@ -1,0 +1,48 @@
+#Login{
+    background-image: url("../assets/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 529px;
+    padding: 200px 0px 0px 450px;
+}
+
+#Login form {
+    height: 250px;
+    width: 530px;
+    background-color:  rgba(21, 58, 67, 0.7);
+    border: 1px solid black;
+    padding: 20px 0px 0px 100px;
+   font-weight: bolder;
+   color: white;
+}
+
+  
+  #Login label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  #Login input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #Login button {
+    background-color: #386d7a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:20px 0px 0px 150px;
+  }
+  
+  #Login button:hover {
+    background-color: rgba(93, 116, 122, 0.8);
+  }

@@ -1,0 +1,28 @@
+#Nav{
+  display: flex;
+  background-color: rgb(83, 59, 47);
+  color: white;
+  position: fixed;
+  top:0;
+  width: 1750px;
+}
+
+#Nav h1{
+    padding: 0px 530px 0px 125px;
+}
+
+#Nav ul{
+    display: flex;
+    padding: 15px 10px 10px 350px;
+    gap: 65px;
+}
+
+#Nav ul li{
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+}
+
+#Nav ul li:hover{
+    border-radius: 12px;
+    background-color: rgb(110, 170, 191,0.7);
+}

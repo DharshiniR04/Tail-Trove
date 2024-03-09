@@ -1,0 +1,70 @@
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0px 20px 0px;
+}
+
+.cart-table th,
+.cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.cart-table th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    width: 150px;
+    height: 150px;
+}
+
+#cart-container {
+    padding: 15px 100px 0px 70px;
+    margin: 150px 0px 20px 180px;
+    border: 1px solid black;
+}
+
+#pay-container {
+    padding: 15px 100px 0px 70px;
+    margin: 150px 0px 20px 60px;
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+}
+
+
+#pay-container p{
+    padding: 30px 10px 10px 50px;
+}
+
+
+#pay-container button {
+    background-color: #386d7a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0px 0px 50px;
+}
+
+#NavCart {
+    background-color: rgb(83, 59, 47);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 1750px;
+}
+
+#NavCart h1 {
+    padding: 0px 0px 0px 680px;
+}
+
+#cart-pay {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}

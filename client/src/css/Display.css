@@ -1,0 +1,34 @@
+#Products{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 120px 10px 20px 120px;
+}
+
+#Products h1{
+    padding-left: 580px;
+}
+
+#Products1,#Products2{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+#Products img{
+    width: 400px;
+    height: 450px;
+}
+
+#Products1 div,#Products2 div{
+    border: 1px solid black;
+}
+
+#Products h3{
+    padding-left: 160px;
+    letter-spacing: 2px;
+}
+
+#clo:hover,#leas:hover,#foo:hover,#hou:hover,#toy:hover,#soap:hover{
+   transform: scale(1.1);
+}

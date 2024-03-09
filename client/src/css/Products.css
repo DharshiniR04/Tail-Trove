@@ -1,0 +1,62 @@
+#Pro h1{
+    padding:120px 10px 20px 650px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#Pro .box-container .box p{
+    padding-left: 120px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+#Pro .box-container .box h4{
+    padding-left: 50px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+#Pro .box-container .box h4 span{
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+#btn{
+    background-color: #386d7a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:20px 0px 0px 180px;
+}
+
+
+#Pro #button {
+    background-color: #386d7a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:20px 0px 0px 700px;
+  }
+
+  
+#Pro img{
+    width: 400px;
+    height: 450px;
+}
